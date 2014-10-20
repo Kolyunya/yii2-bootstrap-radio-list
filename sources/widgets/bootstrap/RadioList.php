@@ -13,6 +13,8 @@ class RadioList extends InputWidget
 
     public $select;
 
+    public $type = 'primary';
+
     public function run()
     {
 

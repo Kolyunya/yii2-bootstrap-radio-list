@@ -20,8 +20,8 @@ echo \yii\helpers\Html::activeRadioList
                     'container' => false,
                     'labelOptions' =>
                     [
-                        'class' => $checked ? 'btn btn-primary active'
-                                            : 'btn btn-primary',
+                        'class' => $checked ? "btn btn-{$this->context->type} active"
+                                            : "btn btn-{$this->context->type}",
                     ],
                 ]
             );

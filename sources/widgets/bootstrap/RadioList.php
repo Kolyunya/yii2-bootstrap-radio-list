@@ -19,6 +19,4 @@ class RadioList extends InputWidget
         return $this->render('RadioList');
 
     }
-
 }
-

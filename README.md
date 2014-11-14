@@ -3,8 +3,7 @@
 ## Usage example
 
 ~~~php
-echo $form->field($model,'list')->widget
-(
+echo $form->field($model, 'list')->widget(
     'kolyunya\yii2\widgets\bootstrap\RadioList',
     [
         'items' =>
